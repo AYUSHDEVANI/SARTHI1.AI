@@ -12,8 +12,8 @@ COPY ./flask-app /app/flask-app
 RUN pip install -r /app/flask-app/requirements.txt
 
 # Expose necessary ports
-EXPOSE 5000  # Flask app port
-EXPOSE 5005  # Rasa port
+EXPOSE 5000  
+EXPOSE 5005  
 
 # Run Rasa and Flask app in the container
 CMD ["sh", "-c", "rasa run -m /app/rasa/models --enable-api --cors '*' & python /app/app.py"]
