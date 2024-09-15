@@ -8,12 +8,12 @@ WORKDIR /app
 COPY ./rasa /app/rasa
 
 # Install additional Python dependencies for your Flask app
-COPY ./flask-app /app/flask-app
-RUN pip install -r /app/flask-app/requirements.txt
+COPY ./app /app/app
+RUN pip install -r /app/app/requirements.txt
 
 # Expose necessary ports
 EXPOSE 5000  
 EXPOSE 5005  
 
 # Run Rasa and Flask app in the container
-CMD ["sh", "-c", "rasa run -m /app/rasa/models --enable-api --cors '*' & python /app/app.py"]
+CMD ["sh", "-c", "rasa run -m /app/rasa/models --enable-api --cors '*' & python /app/app/app.py"]
