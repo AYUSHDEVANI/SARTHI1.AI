@@ -1,0 +1,73 @@
+version: "3.1"
+
+stories:
+
+  - story: greet the user
+    steps:
+      - intent: greet
+      - action: action_detect_language
+      - action: action_greet
+
+
+
+  - story: fertilizer advice based on crop, soil, and season
+    steps:
+      - intent: ask_fertilizer
+      - entities:
+        - crop_type: "wheat"
+        - soil_type: "silty"
+        - season: "rabi"
+      - action: action_fertilizer_advice
+      
+  # - story: fertilizer suggestion path
+  #   steps:
+  #     - intent: request_fertilizer
+  #     - action: utter_ask_crop_name
+  #     - intent: inform  # When user provides crop name
+  #       entities:
+  #         - crop_name
+  #     - action: action_fertilizer_suggestion
+
+  # - story: Request fertilizer advice
+  #   steps:
+  #     - intent: request_fertilizer
+  #     - action: action_ask_crop_name
+
+  # - story: Provide crop name and get fertilizer suggestion
+  #   steps:
+  #     - intent: provide_crop_name
+  #     - action: action_fertilizer_suggestion
+  
+  # - story: form filling
+  #   steps:
+  #     - intent: ask_fertilizer
+  #     - action: fertilizer_form
+  #     - active_loop: fertilizer_form
+  #     - action: action_fertilizer_advice
+
+  - story: crop advice based on season and soil type
+    steps:
+      - intent: ask_crop_advice
+      - slot_was_set:
+        - season: "winter"
+        - soil_type: "loamy"
+      - action: action_crop_advice
+
+  - story: quality check process
+    steps:
+      - intent: ask_quality_check
+      # - slot_was_set:
+      #   - crop_type: "rice"
+      - action: action_quality_check
+
+  - story: bidding information
+    steps:
+      - intent: ask_bidding
+      - slot_was_set:
+        - quality: "good"
+      - action: action_bidding
+
+
+      
+
+      

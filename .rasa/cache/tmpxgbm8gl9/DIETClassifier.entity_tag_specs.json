@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-crop_type",
+      "2": "I-crop_type",
+      "3": "L-crop_type",
+      "4": "U-crop_type",
+      "5": "B-season",
+      "6": "I-season",
+      "7": "L-season",
+      "8": "U-season",
+      "9": "B-soil_type",
+      "10": "I-soil_type",
+      "11": "L-soil_type",
+      "12": "U-soil_type",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-crop_type": 1,
+      "I-crop_type": 2,
+      "L-crop_type": 3,
+      "U-crop_type": 4,
+      "B-season": 5,
+      "I-season": 6,
+      "L-season": 7,
+      "U-season": 8,
+      "B-soil_type": 9,
+      "I-soil_type": 10,
+      "L-soil_type": 11,
+      "U-soil_type": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]

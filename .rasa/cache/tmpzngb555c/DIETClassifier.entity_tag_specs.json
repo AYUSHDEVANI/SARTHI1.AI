@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-crop",
+      "2": "I-crop",
+      "3": "L-crop",
+      "4": "U-crop",
+      "5": "B-crop_type",
+      "6": "I-crop_type",
+      "7": "L-crop_type",
+      "8": "U-crop_type",
+      "9": "B-season",
+      "10": "I-season",
+      "11": "L-season",
+      "12": "U-season",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-crop": 1,
+      "I-crop": 2,
+      "L-crop": 3,
+      "U-crop": 4,
+      "B-crop_type": 5,
+      "I-crop_type": 6,
+      "L-crop_type": 7,
+      "U-crop_type": 8,
+      "B-season": 9,
+      "I-season": 10,
+      "L-season": 11,
+      "U-season": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]

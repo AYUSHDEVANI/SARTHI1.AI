@@ -1,0 +1,643 @@
+{
+    "crop_suggestions": [
+      {
+        "crop_type": {
+          "en": "Wheat",
+          "hi": "गेंहू",
+          "gu": "ગહૂ"
+        },
+        "soil_type": {
+          "en": "Silty",
+          "hi": "सिल्ट युक्त",
+          "gu": "સિલ્ટી"
+        },
+        "season": {
+          "en": "Rabi",
+          "hi": "रबी",
+          "gu": "રબિ"
+        },
+        "suggested_fertilizer": {
+          "en": "DAP",
+          "hi": "DAP",
+          "gu": "DAP"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Rice",
+          "hi": "चावल",
+          "gu": "ચોખા"
+        },
+        "soil_type": {
+          "en": "Clayey",
+          "hi": "कीचड़ युक्त",
+          "gu": "કીચડવાળા"
+        },
+        "season": {
+          "en": "Kharif",
+          "hi": "खरीफ",
+          "gu": "ખરીફ"
+        },
+        "suggested_fertilizer": {
+          "en": "Urea",
+          "hi": "यूरिया",
+          "gu": "યુરિયા"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Maize",
+          "hi": "मक्का",
+          "gu": "મકાઇ"
+        },
+        "soil_type": {
+          "en": "Loamy",
+          "hi": "रेतीली",
+          "gu": "લોઆમી"
+        },
+        "season": {
+          "en": "Rabi",
+          "hi": "रबी",
+          "gu": "રબિ"
+        },
+        "suggested_fertilizer": {
+          "en": "NPK 20-20-20",
+          "hi": "NPK 20-20-20",
+          "gu": "NPK 20-20-20"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Cotton",
+          "hi": "कपास",
+          "gu": "કપાસ"
+        },
+        "soil_type": {
+          "en": "Chalky",
+          "hi": "चाल्की",
+          "gu": "ચાલ્કી"
+        },
+        "season": {
+          "en": "Kharif",
+          "hi": "खरीफ",
+          "gu": "ખરીફ"
+        },
+        "suggested_fertilizer": {
+          "en": "NPK 20-20-20",
+          "hi": "NPK 20-20-20",
+          "gu": "NPK 20-20-20"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Soybean",
+          "hi": "सोयाबीन",
+          "gu": "સોયાબીન"
+        },
+        "soil_type": {
+          "en": "Loamy",
+          "hi": "रेतीली",
+          "gu": "લોઆમી"
+        },
+        "season": {
+          "en": "Zaid",
+          "hi": "जायद",
+          "gu": "જૈયદ"
+        },
+        "suggested_fertilizer": {
+          "en": "NPK 20-20-20",
+          "hi": "NPK 20-20-20",
+          "gu": "NPK 20-20-20"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Mango",
+          "hi": "आम",
+          "gu": "આમ"
+        },
+        "soil_type": {
+          "en": "Peaty",
+          "hi": "पीट युक्त",
+          "gu": "પીટી"
+        },
+        "season": {
+          "en": "Zaid",
+          "hi": "जायद",
+          "gu": "જૈયદ"
+        },
+        "suggested_fertilizer": {
+          "en": "MOP",
+          "hi": "MOP",
+          "gu": "MOP"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Pineapple",
+          "hi": "अनानास",
+          "gu": "અનાનાસ"
+        },
+        "soil_type": {
+          "en": "Sandy",
+          "hi": "रेतीला",
+          "gu": "સેંડી"
+        },
+        "season": {
+          "en": "Zaid",
+          "hi": "जायद",
+          "gu": "જૈયદ"
+        },
+        "suggested_fertilizer": {
+          "en": "NPK 20-20-20",
+          "hi": "NPK 20-20-20",
+          "gu": "NPK 20-20-20"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Papaya",
+          "hi": "पपीता",
+          "gu": "પપૈયા"
+        },
+        "soil_type": {
+          "en": "Loamy",
+          "hi": "रेतीली",
+          "gu": "લોઆમી"
+        },
+        "season": {
+          "en": "Rabi",
+          "hi": "रबी",
+          "gu": "રબિ"
+        },
+        "suggested_fertilizer": {
+          "en": "Urea",
+          "hi": "यूरिया",
+          "gu": "યુરિયા"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Guava",
+          "hi": "अमरूद",
+          "gu": "અમરુંદ"
+        },
+        "soil_type": {
+          "en": "Clayey",
+          "hi": "कीचड़ युक्त",
+          "gu": "કીચડવાળા"
+        },
+        "season": {
+          "en": "Kharif",
+          "hi": "खरीफ",
+          "gu": "ખરીફ"
+        },
+        "suggested_fertilizer": {
+          "en": "DAP",
+          "hi": "DAP",
+          "gu": "DAP"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Apple",
+          "hi": "सेब",
+          "gu": "સેઝ"
+        },
+        "soil_type": {
+          "en": "Loamy",
+          "hi": "रेतीली",
+          "gu": "લોઆમી"
+        },
+        "season": {
+          "en": "Zaid",
+          "hi": "जायद",
+          "gu": "જૈયદ"
+        },
+        "suggested_fertilizer": {
+          "en": "Superphosphate",
+          "hi": "सुपरफास्फेट",
+          "gu": "સૂપરફોસ્ફેટ"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Pear",
+          "hi": "नाशपाती",
+          "gu": "નાશપાતી"
+        },
+        "soil_type": {
+          "en": "Clayey",
+          "hi": "कीचड़ युक्त",
+          "gu": "કીચડવાળા"
+        },
+        "season": {
+          "en": "Rabi",
+          "hi": "रबी",
+          "gu": "રબિ"
+        },
+        "suggested_fertilizer": {
+          "en": "NPK 20-20-20",
+          "hi": "NPK 20-20-20",
+          "gu": "NPK 20-20-20"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Grapes",
+          "hi": "अंगूर",
+          "gu": "અંગૂર"
+        },
+        "soil_type": {
+          "en": "Silty",
+          "hi": "सिल्ट युक्त",
+          "gu": "સિલ્ટી"
+        },
+        "season": {
+          "en": "Kharif",
+          "hi": "खरीफ",
+          "gu": "ખરીફ"
+        },
+        "suggested_fertilizer": {
+          "en": "Urea",
+          "hi": "यूरिया",
+          "gu": "યુરિયા"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Pomegranate",
+          "hi": "अनार",
+          "gu": "ડાળણ"
+        },
+        "soil_type": {
+          "en": "Sandy",
+          "hi": "रेतीला",
+          "gu": "સેંડી"
+        },
+        "season": {
+          "en": "Rabi",
+          "hi": "रबी",
+          "gu": "રબિ"
+        },
+        "suggested_fertilizer": {
+          "en": "Superphosphate",
+          "hi": "सुपरफास्फेट",
+          "gu": "સૂપરફોસ્ફેટ"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Strawberry",
+          "hi": "स्ट्रॉबेरी",
+          "gu": "સ્ટ્રોબેરી"
+        },
+        "soil_type": {
+          "en": "Loamy",
+          "hi": "रेतीली",
+          "gu": "લોઆમી"
+        },
+        "season": {
+          "en": "Zaid",
+          "hi": "जायद",
+          "gu": "જૈયદ"
+        },
+        "suggested_fertilizer": {
+          "en": "NPK 20-20-20",
+          "hi": "NPK 20-20-20",
+          "gu": "NPK 20-20-20"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Blueberry",
+          "hi": "ब्लूबेरी",
+          "gu": "બ્લુબેરી"
+        },
+        "soil_type": {
+          "en": "Peaty",
+          "hi": "पीट युक्त",
+          "gu": "પીટી"
+        },
+        "season": {
+          "en": "Kharif",
+          "hi": "खरीफ",
+          "gu": "ખરીફ"
+        },
+        "suggested_fertilizer": {
+          "en": "MOP",
+          "hi": "MOP",
+          "gu": "MOP"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Raspberry",
+          "hi": "रास्पबेरी",
+          "gu": "રાસ્પબેરી"
+        },
+        "soil_type": {
+          "en": "Clayey",
+          "hi": "कीचड़ युक्त",
+          "gu": "કીચડવાળા"
+        },
+        "season": {
+          "en": "Zaid",
+          "hi": "जायद",
+          "gu": "જૈયદ"
+        },
+        "suggested_fertilizer": {
+          "en": "DAP",
+          "hi": "DAP",
+          "gu": "DAP"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Cherry",
+          "hi": "चेरी",
+          "gu": "ચેરી"
+        },
+        "soil_type": {
+          "en": "Silty",
+          "hi": "सिल्ट युक्त",
+          "gu": "સિલ્ટી"
+        },
+        "season": {
+          "en": "Rabi",
+          "hi": "रबी",
+          "gu": "રબિ"
+        },
+        "suggested_fertilizer": {
+          "en": "Superphosphate",
+          "hi": "सुपरफास्फेट",
+          "gu": "સૂપરફોસ્ફેટ"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Peach",
+          "hi": "आड़ू",
+          "gu": "આડુ"
+        },
+        "soil_type": {
+          "en": "Loamy",
+          "hi": "रेतीली",
+          "gu": "લોઆમી"
+        },
+        "season": {
+          "en": "Kharif",
+          "hi": "खरीफ",
+          "gu": "ખરીફ"
+        },
+        "suggested_fertilizer": {
+          "en": "NPK 20-20-20",
+          "hi": "NPK 20-20-20",
+          "gu": "NPK 20-20-20"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Plum",
+          "hi": "अल्बा",
+          "gu": "જામુ"
+        },
+        "soil_type": {
+          "en": "Chalky",
+          "hi": "चाल्की",
+          "gu": "ચાલ્કી"
+        },
+        "season": {
+          "en": "Rabi",
+          "hi": "रबी",
+          "gu": "રબિ"
+        },
+        "suggested_fertilizer": {
+          "en": "MOP",
+          "hi": "MOP",
+          "gu": "MOP"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Apricot",
+          "hi": "खुबानी",
+          "gu": "ખૂબાની"
+        },
+        "soil_type": {
+          "en": "Sandy",
+          "hi": "रेतीला",
+          "gu": "સેંડી"
+        },
+        "season": {
+          "en": "Zaid",
+          "hi": "जायद",
+          "gu": "જૈયદ"
+        },
+        "suggested_fertilizer": {
+          "en": "DAP",
+          "hi": "DAP",
+          "gu": "DAP"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Orange",
+          "hi": "संतरा",
+          "gu": "નારંગી"
+        },
+        "soil_type": {
+          "en": "Clayey",
+          "hi": "कीचड़ युक्त",
+          "gu": "કીચડવાળા"
+        },
+        "season": {
+          "en": "Kharif",
+          "hi": "खरीफ",
+          "gu": "ખરીફ"
+        },
+        "suggested_fertilizer": {
+          "en": "Superphosphate",
+          "hi": "सुपरफास्फेट",
+          "gu": "સૂપરફોસ્ફેટ"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Lemon",
+          "hi": "नींबू",
+          "gu": "લીંબુ"
+        },
+        "soil_type": {
+          "en": "Loamy",
+          "hi": "रेतीली",
+          "gu": "લોઆમી"
+        },
+        "season": {
+          "en": "Rabi",
+          "hi": "रबी",
+          "gu": "રબિ"
+        },
+        "suggested_fertilizer": {
+          "en": "Urea",
+          "hi": "यूरिया",
+          "gu": "યુરિયા"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Mandarin",
+          "hi": "संतरा",
+          "gu": "સંતરું"
+        },
+        "soil_type": {
+          "en": "Peaty",
+          "hi": "पीट युक्त",
+          "gu": "પીટી"
+        },
+        "season": {
+          "en": "Zaid",
+          "hi": "जायद",
+          "gu": "જૈયદ"
+        },
+        "suggested_fertilizer": {
+          "en": "MOP",
+          "hi": "MOP",
+          "gu": "MOP"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Tangerine",
+          "hi": "संतरा",
+          "gu": "ટેન્જરિન"
+        },
+        "soil_type": {
+          "en": "Chalky",
+          "hi": "चाल्की",
+          "gu": "ચાલ્કી"
+        },
+        "season": {
+          "en": "Kharif",
+          "hi": "खरीफ",
+          "gu": "ખરીફ"
+        },
+        "suggested_fertilizer": {
+          "en": "NPK 20-20-20",
+          "hi": "NPK 20-20-20",
+          "gu": "NPK 20-20-20"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Fig",
+          "hi": "अंजीर",
+          "gu": "અંજીર"
+        },
+        "soil_type": {
+          "en": "Silty",
+          "hi": "सिल्ट युक्त",
+          "gu": "સિલ્ટી"
+        },
+        "season": {
+          "en": "Rabi",
+          "hi": "रबी",
+          "gu": "રબિ"
+        },
+        "suggested_fertilizer": {
+          "en": "Superphosphate",
+          "hi": "सुपरफास्फेट",
+          "gu": "સૂપરફોસ્ફેટ"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Kiwi",
+          "hi": "कीवी",
+          "gu": "કીવી"
+        },
+        "soil_type": {
+          "en": "Loamy",
+          "hi": "रेतीली",
+          "gu": "લોઆમી"
+        },
+        "season": {
+          "en": "Zaid",
+          "hi": "जायद",
+          "gu": "જૈયદ"
+        },
+        "suggested_fertilizer": {
+          "en": "MOP",
+          "hi": "MOP",
+          "gu": "MOP"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Lychee",
+          "hi": "लीची",
+          "gu": "લીચી"
+        },
+        "soil_type": {
+          "en": "Peaty",
+          "hi": "पीट युक्त",
+          "gu": "પીટી"
+        },
+        "season": {
+          "en": "Kharif",
+          "hi": "खरीफ",
+          "gu": "ખરીફ"
+        },
+        "suggested_fertilizer": {
+          "en": "DAP",
+          "hi": "DAP",
+          "gu": "DAP"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Avocado",
+          "hi": "एवोकाडो",
+          "gu": "એવોકાડો"
+        },
+        "soil_type": {
+          "en": "Sandy",
+          "hi": "रेतीला",
+          "gu": "સેંડી"
+        },
+        "season": {
+          "en": "Rabi",
+          "hi": "रबी",
+          "gu": "રબિ"
+        },
+        "suggested_fertilizer": {
+          "en": "NPK 20-20-20",
+          "hi": "NPK 20-20-20",
+          "gu": "NPK 20-20-20"
+        }
+      },
+      {
+        "crop_type": {
+          "en": "Guava",
+          "hi": "अमरूद",
+          "gu": "અમરુંદ"
+        },
+        "soil_type": {
+          "en": "Loamy",
+          "hi": "रेतीली",
+          "gu": "લોઆમી"
+        },
+        "season": {
+          "en": "Kharif",
+          "hi": "खरीफ",
+          "gu": "ખરીફ"
+        },
+        "suggested_fertilizer": {
+          "en": "Urea",
+          "hi": "यूरिया",
+          "gu": "યુરિયા"
+        }
+      }
+    ]
+  }
+  

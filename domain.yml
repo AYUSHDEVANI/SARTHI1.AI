@@ -1,0 +1,163 @@
+version: "3.1"
+
+intents:
+  - greet
+  - ask_fertilizer
+  - ask_crop_advice
+  - ask_quality_check
+  - ask_bidding
+  - provide_crop_type
+  - provide_season
+  - provide_soil_type
+  - language_change
+  - request_fertilizer
+  - provide_crop_name
+
+entities:
+  - crop_type
+  - season
+  - soil_type
+  - quality
+  - language
+  - crop_name
+
+slots:
+  crop_type:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: crop_type
+
+  soil_type:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: soil_type
+
+  season:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: season
+
+  quality:
+    type: text
+    # influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: quality
+
+  crop_name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: crop_name  # slot is filled from the entity crop_name
+  fertilizers:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+
+
+  language:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_intent
+        intent: language_change
+        value: "GUJARATI"
+      - type: from_intent
+        intent: language_change
+        value: "HINDI"
+      - type: from_intent
+        intent: language_change
+        value: "ENGLISH"
+responses:
+  utter_greet:
+    - text: |
+        Hello! How can I assist you with farming today?
+        હેલો! હું આજે તમને ખેતીમાં કેવી રીતે મદદ કરી શકું?
+        नमस्ते! मैं आज खेती में आपकी कैसे मदद कर सकता हूँ?
+
+  utter_ask_crop_name:
+    - text: |
+        "Please tell me the crop name you're asking about."
+
+  utter_ask_crop_type:
+    - text: |
+        What type of crop are you growing?
+        તમે કયા પ્રકારનો પાક ઉગાડી રહ્યા છો?
+        आप किस प्रकार की फसल उगा रहे हैं?
+
+  utter_ask_soil_type:
+    - text: |
+        What type of soil are you using? (Clay, Sandy, Loamy, etc.)
+        તમે ક્યા પ્રકારની માટીનો ઉપયોગ કરી રહ્યા છો? (માટી, રેતી, ચીકણી, વગેરે)
+        आप किस प्रकार की मिट्टी का उपयोग कर रहे हैं? (मिट्टी, रेती, चिकनी, आदि)
+
+  utter_ask_season:
+    - text: |
+        What season is it? (Summer, Winter, Monsoon, etc.)
+        કયો મોસમ છે? (ઉનાળો, શિયાળો, ચોમાસું, વગેરે)
+        कौन सा मौसम है? (गर्मी, सर्दी, मानसून, आदि)
+
+  utter_fertilizer_advice:
+    - text: |
+        For {crop_type} in {season}, you can use organic fertilizers like compost or chemical fertilizers like urea.
+        {season} માં {crop_type} માટે, તમે કમ્પોસ્ટ જેવા જૈવિક ખાતરો અથવા યુરીયા જેવા રસાયણિક ખાતરોનો ઉપયોગ કરી શકો છો.
+        {season} में {crop_type} के लिए, आप खाद जैसे कंपोस्ट या यूरिया जैसे रासायनिक उर्वरकों का उपयोग कर सकते हैं।
+
+  # utter_ask_crop_name:
+  #   - text: "Which crop do you need fertilizer advice for?"
+  #   - text: "किस फसल के लिए आप उर्वरक सुझाव चाहते हैं?"
+  #   - text: "કયા પાક માટે ખાતરના સૂચનો જોઈએ છે?"
+
+  utter_crop_advice:
+    - text: |
+        Based on the {season}, crops like wheat, rice, or pulses are ideal for growing.
+        {season} અનુસાર ઘઉં, ચોખા અથવા કઠોળ જેવા પાક ઉગાડવા યોગ્ય છે.
+        {season} के अनुसार गेहूं, चावल या दालें उगाने के लिए उपयुक्त हैं।
+
+  utter_quality_check:
+    - text: |
+        To check the quality of {crop_type}, ensure it meets market standards for color, size, and texture.
+        {crop_type} ની ગુણવત્તા તપાસવા માટે, તેની રંગ, કદ અને ટેક્સચર માટેના બજારના ધોરણોને અનુરૂપતા નિશ્ચિત કરો.
+        {crop_type} की गुणवत्ता की जांच करने के लिए, सुनिश्चित करें कि यह रंग, आकार और बनावट के बाजार मानकों को पूरा करता है।
+
+  utter_bidding_info:
+    - text: |
+        For {crop_type}, the starting bid is ₹{quality}-based. Would you like to proceed?
+        {crop_type} માટે, શરૂઆતની હરાજી ₹{quality}-આધારિત છે. શું તમે આગળ વધવા માંગો છો?
+        {crop_type} के लिए, शुरुआती बोली ₹{quality} पर आधारित है। क्या आप आगे बढ़ना चाहेंगे?
+
+  utter_ask_language:
+    - text: |
+        Which language would you prefer? English, Hindi, or Gujarati?
+        તમે કઈ ભાષા પસંદ કરશો? અંગ્રેજી, હિન્દી અથવા ગુજરાતી?
+        आप कौन सी भाषा पसंद करेंगे? अंग्रेजी, हिंदी, या गुजराती?
+
+actions:
+  - action_fertilizer_advice
+  - action_crop_advice
+  - action_detect_language
+  - action_bidding
+  - action_quality_check
+  - action_greet
+  - action_fertilizer_suggestion
+
+# forms:
+#   fertilizer_form:
+#     required_slots:
+#       crop_type:
+#         - type: from_entity
+#           entity: crop_type
+#       soil_type:
+#         type: from_entity
+#         entity: soil_type
+#       season:
+#         type: from_entity
+#         entity: season

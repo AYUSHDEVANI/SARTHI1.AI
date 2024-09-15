@@ -1,0 +1,734 @@
+[
+    {
+      "crop_type": {
+        "en": "Wheat",
+        "hi": "गेंहू",
+        "gu": "ગેહું"
+      },
+      "soil_type": {
+        "en": "Cambisols",
+        "hi": "कैम्बिसोल्स",
+        "gu": "કેમ્બિસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-10-10, Compost",
+        "hi": "NPK 20-10-10, खाद",
+        "gu": "NPK 20-10-10, ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Rice",
+        "hi": "चावल",
+        "gu": "ચાવલ"
+      },
+      "soil_type": {
+        "en": "Arenosols",
+        "hi": "एरेनोसोल्स",
+        "gu": "એરેનોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 15-15-15, Organic Matter",
+        "hi": "NPK 15-15-15, कार्बनिक पदार्थ",
+        "gu": "NPK 15-15-15, કાર્બનિક પદાર્થ"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Maize",
+        "hi": "मक्का",
+        "gu": "મકાઈ"
+      },
+      "soil_type": {
+        "en": "Arenosols",
+        "hi": "एरेनोसोल्स",
+        "gu": "એરેનોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-20-10, Compost",
+        "hi": "NPK 20-20-10, खाद",
+        "gu": "NPK 20-20-10, ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Barley",
+        "hi": "जौ",
+        "gu": "જવ"
+      },
+      "soil_type": {
+        "en": "Cambisols",
+        "hi": "कैम्बिसोल्स",
+        "gu": "કેમ્બિસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 15-15-15, Organic Fertilizers",
+        "hi": "NPK 15-15-15, कार्बनिक खाद",
+        "gu": "NPK 15-15-15, કાર્બનિક ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Sorghum",
+        "hi": "ज्वार",
+        "gu": "જવાર"
+      },
+      "soil_type": {
+        "en": "Leptosols",
+        "hi": "लेप्टोसोलेस",
+        "gu": "લેપ્ટોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 10-10-10, Compost",
+        "hi": "NPK 10-10-10, खाद",
+        "gu": "NPK 10-10-10, ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Oats",
+        "hi": "ओट्स",
+        "gu": "ઓટ્સ"
+      },
+      "soil_type": {
+        "en": "Cambisols",
+        "hi": "कैम्बिसोल्स",
+        "gu": "કેમ્બિસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 15-10-10, Organic Matter",
+        "hi": "NPK 15-10-10, कार्बनिक पदार्थ",
+        "gu": "NPK 15-10-10, કાર્બનિક પદાર્થ"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Soybean",
+        "hi": "सोयाबीन",
+        "gu": "સોયાબીન"
+      },
+      "soil_type": {
+        "en": "Leptosols",
+        "hi": "लेप्टोसोलेस",
+        "gu": "લેપ્ટોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-10-10, Organic Fertilizers",
+        "hi": "NPK 20-10-10, कार्बनिक खाद",
+        "gu": "NPK 20-10-10, કાર્બનિક ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Chickpeas",
+        "hi": "चना",
+        "gu": "ચણું"
+      },
+      "soil_type": {
+        "en": "Calcisols",
+        "hi": "कैल्सिसोल्स",
+        "gu": "કેલ્સિસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 10-20-10, Organic Matter",
+        "hi": "NPK 10-20-10, कार्बनिक पदार्थ",
+        "gu": "NPK 10-20-10, કાર્બનિક પદાર્થ"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Lentils",
+        "hi": "मसूर",
+        "gu": "મસૂર"
+      },
+      "soil_type": {
+        "en": "Calcisols",
+        "hi": "कैल्सिसोल्स",
+        "gu": "કેલ્સિસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-20-20, Organic Fertilizers",
+        "hi": "NPK 20-20-20, कार्बनिक खाद",
+        "gu": "NPK 20-20-20, કાર્બનિક ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Peas",
+        "hi": "मटर",
+        "gu": "મટર"
+      },
+      "soil_type": {
+        "en": "Leptosols",
+        "hi": "लेप्टोसोलेस",
+        "gu": "લેપ્ટોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 15-15-15, Compost",
+        "hi": "NPK 15-15-15, खाद",
+        "gu": "NPK 15-15-15, ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Sunflower",
+        "hi": "सूरजमुखी",
+        "gu": "સૂરજમુખી"
+      },
+      "soil_type": {
+        "en": "Regosols",
+        "hi": "रेगोसोल्स",
+        "gu": "રેગોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-20-10, Organic Matter",
+        "hi": "NPK 20-20-10, कार्बनिक पदार्थ",
+        "gu": "NPK 20-20-10, કાર્બનિક પદાર્થ"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Cotton",
+        "hi": "कपास",
+        "gu": "કપાસ"
+      },
+      "soil_type": {
+        "en": "Cambisols",
+        "hi": "कैम्बिसोल्स",
+        "gu": "કેમ્બિસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 15-10-10, Organic Fertilizers",
+        "hi": "NPK 15-10-10, कार्बनिक खाद",
+        "gu": "NPK 15-10-10, કાર્બનિક ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Sugarcane",
+        "hi": "गन्ना",
+        "gu": "કાંદો"
+      },
+      "soil_type": {
+        "en": "Cambisols",
+        "hi": "कैम्बिसोल्स",
+        "gu": "કેમ્બિસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-10-10, Organic Fertilizers",
+        "hi": "NPK 20-10-10, कार्बनिक खाद",
+        "gu": "NPK 20-10-10, કાર્બનિક ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Potatoes",
+        "hi": "आलू",
+        "gu": "આલૂ"
+      },
+      "soil_type": {
+        "en": "Regosols",
+        "hi": "रेगोसोल्स",
+        "gu": "રેગોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-20-10, Compost",
+        "hi": "NPK 20-20-10, खाद",
+        "gu": "NPK 20-20-10, ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Tomatoes",
+        "hi": "टमाटर",
+        "gu": "ટમેટા"
+      },
+      "soil_type": {
+        "en": "Arenosols",
+        "hi": "एरेनोसोल्स",
+        "gu": "એરેનોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-10-10, Organic Matter",
+        "hi": "NPK 20-10-10, कार्बनिक पदार्थ",
+        "gu": "NPK 20-10-10, કાર્બનિક પદાર્થ"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Carrots",
+        "hi": "गाजर",
+        "gu": "ગાજર"
+      },
+      "soil_type": {
+        "en": "Leptosols",
+        "hi": "लेप्टोसोलेस",
+        "gu": "લેપ્ટોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 15-10-10, Organic Fertilizers",
+        "hi": "NPK 15-10-10, कार्बनिक खाद",
+        "gu": "NPK 15-10-10, કાર્બનિક ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Beets",
+        "hi": "चुकंदर",
+        "gu": "ચુકંદર"
+      },
+      "soil_type": {
+        "en": "Leptosols",
+        "hi": "लेप्टोसोलेस",
+        "gu": "લેપ્ટોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-10-10, Compost",
+        "hi": "NPK 20-10-10, खाद",
+        "gu": "NPK 20-10-10, ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Onions",
+        "hi": "प्याज",
+        "gu": "કોરી"
+      },
+      "soil_type": {
+        "en": "Cambisols",
+        "hi": "कैम्बिसोल्स",
+        "gu": "કેમ્બિસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-10-10, Organic Matter",
+        "hi": "NPK 20-10-10, कार्बनिक पदार्थ",
+        "gu": "NPK 20-10-10, કાર્બનિક પદાર્થ"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Garlic",
+        "hi": "लहसुन",
+        "gu": "લસણ"
+      },
+      "soil_type": {
+        "en": "Leptosols",
+        "hi": "लेप्टोसोलेस",
+        "gu": "લેપ્ટોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-20-10, Compost",
+        "hi": "NPK 20-20-10, खाद",
+        "gu": "NPK 20-20-10, ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Cabbage",
+        "hi": "पत्तागोभी",
+        "gu": "પત્તાગોભી"
+      },
+      "soil_type": {
+        "en": "Cambisols",
+        "hi": "कैम्बिसोल्स",
+        "gu": "કેમ્બિસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 15-15-15, Organic Fertilizers",
+        "hi": "NPK 15-15-15, कार्बनिक खाद",
+        "gu": "NPK 15-15-15, કાર્બનિક ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Cauliflower",
+        "hi": "फूलगोभी",
+        "gu": "ફૂલકોબી"
+      },
+      "soil_type": {
+        "en": "Leptosols",
+        "hi": "लेप्टोसोलेस",
+        "gu": "લેપ્ટોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-10-10, Organic Matter",
+        "hi": "NPK 20-10-10, कार्बनिक पदार्थ",
+        "gu": "NPK 20-10-10, કાર્બનિક પદાર્થ"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Lettuce",
+        "hi": "लेट्यूस",
+        "gu": "લેટસ"
+      },
+      "soil_type": {
+        "en": "Arenosols",
+        "hi": "एरेनोसोल्स",
+        "gu": "એરેનોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 15-15-15, Organic Matter",
+        "hi": "NPK 15-15-15, कार्बनिक पदार्थ",
+        "gu": "NPK 15-15-15, કાર્બનિક પદાર્થ"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Brussels Sprouts",
+        "hi": "ब्रसेल्स स्प्राउट्स",
+        "gu": "બ્રુસલ્સ સ્પ્રાઉટ્સ"
+      },
+      "soil_type": {
+        "en": "Leptosols",
+        "hi": "लेप्टोसोलेस",
+        "gu": "લેપ્ટોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-10-10, Compost",
+        "hi": "NPK 20-10-10, खाद",
+        "gu": "NPK 20-10-10, ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Zucchini",
+        "hi": "जुचिनी",
+        "gu": "ઝૂચિની"
+      },
+      "soil_type": {
+        "en": "Regosols",
+        "hi": "रेगोसोल्स",
+        "gu": "રેગોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-20-10, Organic Fertilizers",
+        "hi": "NPK 20-20-10, कार्बनिक खाद",
+        "gu": "NPK 20-20-10, કાર્બનિક ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Eggplant",
+        "hi": "बैंगन",
+        "gu": "કોપર"
+      },
+      "soil_type": {
+        "en": "Cambisols",
+        "hi": "कैम्बिसोल्स",
+        "gu": "કેમ્બિસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 15-15-15, Organic Matter",
+        "hi": "NPK 15-15-15, कार्बनिक पदार्थ",
+        "gu": "NPK 15-15-15, કાર્બનિક પદાર્થ"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Cucumbers",
+        "hi": "खीरा",
+        "gu": "કાકરી"
+      },
+      "soil_type": {
+        "en": "Leptosols",
+        "hi": "लेप्टोसोलेस",
+        "gu": "લેપ્ટોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-10-10, Organic Fertilizers",
+        "hi": "NPK 20-10-10, कार्बनिक खाद",
+        "gu": "NPK 20-10-10, કાર્બનિક ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Pumpkins",
+        "hi": "कद्दू",
+        "gu": "કદૂ"
+      },
+      "soil_type": {
+        "en": "Arenosols",
+        "hi": "एरेनोसोल्स",
+        "gu": "એરેનોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-20-10, Organic Matter",
+        "hi": "NPK 20-20-10, कार्बनिक पदार्थ",
+        "gu": "NPK 20-20-10, કાર્બનિક પદાર્થ"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Sweet Corn",
+        "hi": "मकई",
+        "gu": "મીઠો મકાઈ"
+      },
+      "soil_type": {
+        "en": "Cambisols",
+        "hi": "कैम्बिसोल्स",
+        "gu": "કેમ્બિસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-20-10, Compost",
+        "hi": "NPK 20-20-10, खाद",
+        "gu": "NPK 20-20-10, ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Potatoes",
+        "hi": "आलू",
+        "gu": "આલૂ"
+      },
+      "soil_type": {
+        "en": "Regosols",
+        "hi": "रेगोसोल्स",
+        "gu": "રેગોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-20-10, Compost",
+        "hi": "NPK 20-20-10, खाद",
+        "gu": "NPK 20-20-10, ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Strawberries",
+        "hi": "स्ट्रॉबेरी",
+        "gu": "સ્ટ્રોબેરી"
+      },
+      "soil_type": {
+        "en": "Calcisols",
+        "hi": "कैल्सिसोल्स",
+        "gu": "કેલ્સિસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-10-10, Organic Fertilizers",
+        "hi": "NPK 20-10-10, कार्बनिक खाद",
+        "gu": "NPK 20-10-10, કાર્બનિક ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Blueberries",
+        "hi": "ब्लू बेरीज़",
+        "gu": "બ્લુબેરી"
+      },
+      "soil_type": {
+        "en": "Cambisols",
+        "hi": "कैम्बिसोल्स",
+        "gu": "કેમ્બિસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-20-10, Organic Matter",
+        "hi": "NPK 20-20-10, कार्बनिक पदार्थ",
+        "gu": "NPK 20-20-10, કાર્બનિક પદાર્થ"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Raspberries",
+        "hi": "रास्पबेरी",
+        "gu": "રાસ્પબેરી"
+      },
+      "soil_type": {
+        "en": "Arenosols",
+        "hi": "एरेनोसोल्स",
+        "gu": "એરેનોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 15-15-15, Organic Fertilizers",
+        "hi": "NPK 15-15-15, कार्बनिक खाद",
+        "gu": "NPK 15-15-15, કાર્બનિક ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Blackberries",
+        "hi": "ब्लैकबेरी",
+        "gu": "બ્લેકબેરી"
+      },
+      "soil_type": {
+        "en": "Regosols",
+        "hi": "रेगोसोल्स",
+        "gu": "રેગોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-10-10, Organic Matter",
+        "hi": "NPK 20-10-10, कार्बनिक पदार्थ",
+        "gu": "NPK 20-10-10, કાર્બનિક પદાર્થ"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Grapes",
+        "hi": "अंगूर",
+        "gu": "દ્રાક્ષ"
+      },
+      "soil_type": {
+        "en": "Arenosols",
+        "hi": "एरेनोसोल्स",
+        "gu": "એરેનોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-20-10, Organic Fertilizers",
+        "hi": "NPK 20-20-10, कार्बनिक खाद",
+        "gu": "NPK 20-20-10, કાર્બનિક ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Melons",
+        "hi": "तरबूज",
+        "gu": "મેલન"
+      },
+      "soil_type": {
+        "en": "Regosols",
+        "hi": "रेगोसोल्स",
+        "gu": "રેગોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-20-10, Organic Matter",
+        "hi": "NPK 20-20-10, कार्बनिक पदार्थ",
+        "gu": "NPK 20-20-10, કાર્બનિક પદાર્થ"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Asparagus",
+        "hi": "अश्पैरेगस",
+        "gu": "અસ્પેરાગસ"
+      },
+      "soil_type": {
+        "en": "Leptosols",
+        "hi": "लेप्टोसोलेस",
+        "gu": "લેપ્ટોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 15-15-15, Organic Fertilizers",
+        "hi": "NPK 15-15-15, कार्बनिक खाद",
+        "gu": "NPK 15-15-15, કાર્બનિક ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Artichokes",
+        "hi": "आटिचोक",
+        "gu": "આર્ટિચોક"
+      },
+      "soil_type": {
+        "en": "Regosols",
+        "hi": "रेगोसोल्स",
+        "gu": "રેગોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-10-10, Organic Matter",
+        "hi": "NPK 20-10-10, कार्बनिक पदार्थ",
+        "gu": "NPK 20-10-10, કાર્બનિક પદાર્થ"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Kale",
+        "hi": "पालक",
+        "gu": "કેલ"
+      },
+      "soil_type": {
+        "en": "Cambisols",
+        "hi": "कैम्बिसोल्स",
+        "gu": "કેમ્બિસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 15-10-10, Organic Fertilizers",
+        "hi": "NPK 15-10-10, कार्बनिक खाद",
+        "gu": "NPK 15-10-10, કાર્બનિક ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Spinach",
+        "hi": "पालक",
+        "gu": "पालक"
+      },
+      "soil_type": {
+        "en": "Arenosols",
+        "hi": "एरेनोसोल्स",
+        "gu": "એરેનોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-10-10, Organic Matter",
+        "hi": "NPK 20-10-10, कार्बनिक पदार्थ",
+        "gu": "NPK 20-10-10, કાર્બનિક પદાર્થ"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Chili Peppers",
+        "hi": "मिर्च",
+        "gu": "મરચા"
+      },
+      "soil_type": {
+        "en": "Regosols",
+        "hi": "रेगोसोल्स",
+        "gu": "રેગોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-10-10, Organic Fertilizers",
+        "hi": "NPK 20-10-10, कार्बनिक खाद",
+        "gu": "NPK 20-10-10, કાર્બનિક ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Coriander",
+        "hi": "धनिया",
+        "gu": "ધનિયા"
+      },
+      "soil_type": {
+        "en": "Cambisols",
+        "hi": "कैम्बिसोल्स",
+        "gu": "કેમ્બિસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 15-15-15, Compost",
+        "hi": "NPK 15-15-15, खाद",
+        "gu": "NPK 15-15-15, ખાતર"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Basil",
+        "hi": "तुलसी",
+        "gu": "તુલસી"
+      },
+      "soil_type": {
+        "en": "Leptosols",
+        "hi": "लेप्टोसोलेस",
+        "gu": "લેપ્ટોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 20-10-10, Organic Matter",
+        "hi": "NPK 20-10-10, कार्बनिक पदार्थ",
+        "gu": "NPK 20-10-10, કાર્બનિક પદાર્થ"
+      }
+    },
+    {
+      "crop_type": {
+        "en": "Rosemary",
+        "hi": "रोजमैरी",
+        "gu": "રોસ્મેરી"
+      },
+      "soil_type": {
+        "en": "Arenosols",
+        "hi": "एरेनोसोल्स",
+        "gu": "એરેનોસોલ્સ"
+      },
+      "fertilizer": {
+        "en": "NPK 15-15-15, Organic Matter",
+        "hi": "NPK 15-15-15, कार्बनिक पदार्थ",
+        "gu": "NPK 15-15-15, કાર્બનિક પદાર્થ"
+      }
+    }
+  ]
+  

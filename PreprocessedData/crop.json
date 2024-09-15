@@ -1,0 +1,69 @@
+
+    {
+    "suggestions": {
+      "Loamy": {
+        "Winter": {
+          "en": {
+            "crop": "Wheat",
+            "summary": "Wheat is ideal for loamy soil during the winter season. It is a major staple crop used for making flour and other food products."
+          },
+          "hi": {
+            "crop": "गेहूं",
+            "summary": "गेहूं बलुआ मिट्टी के लिए सर्दियों के मौसम में आदर्श है। यह एक प्रमुख अनाज फसल है जिसका उपयोग आटा और अन्य खाद्य पदार्थों के लिए किया जाता है।"
+          },
+          "gu": {
+            "crop": "ગહું",
+            "summary": "ગહું લોઆમી જમીન માટે શિયાળાની મોસમ દરમિયાન યોગ્ય છે. આ એક મુખ્ય અનાજની પાક છે જેનો ઉપયોગ લોટ અને અન્ય ખોરાકની વસ્તુઓ માટે થાય છે."
+          }
+        }
+      },
+      "Clayey": {
+        "Monsoon": {
+          "en": {
+            "crop": "Rice",
+            "summary": "Rice thrives in clayey soil during the monsoon season. It is a staple food crop requiring abundant water."
+          },
+          "hi": {
+            "crop": "चावल",
+            "summary": "चावल चिकनी मिट्टी में मानसून के मौसम के दौरान उगता है। यह एक प्रमुख खाद्य फसल है जिसे बहुत पानी की आवश्यकता होती है।"
+          },
+          "gu": {
+            "crop": "ચોખા",
+            "summary": "ચોખા ચીલીયાની જમીન માં માનસૂન મોસમ દરમિયાન ઉગે છે. આ એક મુખ્ય ખોરાકની પાક છે જેને વધારે પાણીની જરૂરિયાત હોય છે."
+          }
+        }
+      },
+      "Sandy": {
+        "Summer": {
+          "en": {
+            "crop": "Maize",
+            "summary": "Maize, or corn, is well-suited for sandy soil and is grown in the summer season. It is used for food, fodder, and industrial purposes."
+          },
+          "hi": {
+            "crop": "मक्का",
+            "summary": "मक्का, या कॉर्न, रेतीली मिट्टी के लिए उपयुक्त है और गर्मियों के मौसम में उगाया जाता है। इसका उपयोग भोजन, चारे, और औद्योगिक उद्देश्यों के लिए किया जाता है।"
+          },
+          "gu": {
+            "crop": "મકાઈ",
+            "summary": "મકાઈ, અથવા કોર્ન, રેતલી જમીન માટે યોગ્ય છે અને ગર્મી ની મોસમ દરમિયાન ઉગાડવામાં આવે છે. તેનો ઉપયોગ ખોરાક, ચારો અને ઉદ્યોગ માટે થાય છે."
+          }
+        }
+      },
+      "Alluvial": {
+        "Winter": {
+          "en": {
+            "crop": "Sugarcane",
+            "summary": "Sugarcane grows well in alluvial soil during the winter season. It is a major crop for sugar and molasses production."
+          },
+          "hi": {
+            "crop": "गन्ना",
+            "summary": "गन्ना सभीuvial मिट्टी में सर्दियों के मौसम के दौरान अच्छी तरह से उगता है। यह चीनी और मोलासेस उत्पादन के लिए एक प्रमुख फसल है।"
+          },
+          "gu": {
+            "crop": "કાંદો",
+            "summary": "કાંદો આલુવિયલ જમીન માં શિયાળાની મોસમ દરમિયાન સારી રીતે ઉગે છે. આ ખાંડ અને મોલાસેસ ઉત્પાદনের માટે મુખ્ય પાક છે."
+          }
+        }
+      }
+    }
+  }

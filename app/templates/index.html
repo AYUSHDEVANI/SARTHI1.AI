@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarthi.Ai</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+    <h1>Chat with Sarthi</h1>
+    <div id="chatbox">
+        <input type="text" id="user_message" placeholder="Type your message">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+    <div id="chat_output"></div>
+
+    <script>
+        function sendMessage() {
+            const userMessage = document.getElementById('user_message').value;
+            fetch('/webhook', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ message: userMessage })
+            })
+            .then(response => response.json())
+            .then(data => {
+                let chatOutput = document.getElementById('chat_output');
+                chatOutput.innerHTML = `<p><strong>Sarthi:</strong> ${data[0].text}</p>`;
+            });
+        }
+    </script>
+</body>
+</html>

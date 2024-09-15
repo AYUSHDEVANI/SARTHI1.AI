@@ -1,0 +1,42 @@
+version: "3.1"
+
+rules:
+  - rule: Greet user
+    steps:
+      - intent: greet
+      - action: action_detect_language
+      - action: action_greet
+
+  # Rule for responding to fertilizer advice request
+  - rule: Request fertilizer advice
+    steps:
+      - intent: request_fertilizer
+      - action: utter_ask_crop_name
+
+  # Rule for providing fertilizer suggestion after crop name
+  - rule: Provide crop name and get fertilizer suggestion
+    steps:
+      - intent: provide_crop_name
+        entities:
+          - crop_name
+      - action: action_fertilizer_suggestion
+
+  - rule: Provide fertilizer advice
+    steps:
+      - intent: ask_fertilizer
+      - action: action_fertilizer_advice
+
+  - rule: Provide crop advice
+    steps:
+      - intent: ask_crop_advice
+      - action: action_crop_advice
+
+  - rule: Provide quality check advice
+    steps:
+      - intent: ask_quality_check
+      - action: action_quality_check
+
+  - rule: Provide bidding information
+    steps:
+      - intent: ask_bidding
+      - action: action_bidding

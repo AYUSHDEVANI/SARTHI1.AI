@@ -1,0 +1,20 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fllpUkpmTWZVaFF9cmp6eWgzSUVsbCwBmgSPz": "action_detect_language",
+    "eJytjUEKAjEMRa/SA4jotlcZhlDqtxQ7bWlSQcvc3QyKawfc5Sfv5U9jPZhRG+7kvMSSrRnvgbJbYM0npMiCrGxnNGVi1ih65htd0SSm+EQj7iGAN2P97e8FAi+UXA7dBfyxoIsov+m+lUryqKDQVeJUhJX+rq2ZzsfTvKt7fgFGgnki": "utter_ask_soil_type_gu",
+    "eJy1jlEKAjEMRK/SA4job6+yLKHUWILdtjSpoGXvvlnU/V5E/zKZN5kMfT6YXirewXmhnKzprwGSm9Cat4jEgknZxliVoaRS1OYbXLEKRXpiBW4hIK+Jed/dCwp6gehSaC7gDwuaiPJr3NdcQB4FITQNcczCSm9ra4bz8TT+pZszxR3d6nzAb74ZFz8vrko=": "utter_ask_season_gu",
+    "eJy1jksOwjAMRK+SAyAE21ylqqwomMgiJFHsIEHUu+Py29JFu7M9bzwz9Glneql4A+eFcrKmvwdI7orWfJZILJiUbYxVGUq6isp8gTNWoUgPrMAtBOTZMS37e0JBLxBdCs0FXDGgiSg/233NBeReEEJTE8csrPTvbM1w3B/GTbI5U1yQrcoX3LQNOtbzvyovap1m4xMVU+aZ": "action_provide_fertilizer_advice",
+    "eJy9jkEOwjAMBL+SByAE136lqqwoNZFFSKLYqQQVf8eFgrjRA+3Na896tx3vOzPmggNYJ5RiY8bXANFesDGzCMSCUdnKWJShqFL0zGc4YREKdMMCXL1Hnhz3ZX97FHQCwUZfrcc/BlQR5Se7KymDXDOCr2rikISV/qwb0x73h26VbE4UFmTr5Q2u2gYt6/pXlSe1RbNZ5JIG6vH7h+0HcrhZze4Byr4kQg==": "action_listen",
+    "eJytjUEKQjEMRK/SA4jotlf5fEKpsQRrW5JU0PLvboriWsFdJvNmZhnbzo3GeIMQlWrxbrwOKOGK3r1FJlEsxnZBNoaKSTVbLnBGVsr0QAbpKaHMxPZd7wkVo0IOJfWQ8I8DXdX4GY9cG+i9zXbJVcXQz8+75bg/rD8Nr0/Uxnfn": "utter_ask_soil_type",
+    "eJy1jl0KAjEMhK/SA4joa6+yLKHUWIK1LU0qaNm7b4o/r4roWyb5ZiZTXzaml4oXcF4oJ2v6fYDkzmjNQ0RiwaRsY6zKUFIpeuYTHLEKRbphBW4hIA/H8lnuAQW9QHQpNBfwhwVNRPlh9zUXkGsZ6RyzsKKvnTXTfrub/1LMmeK7Yr08qW9emVcMX6vU": "utter_ask_season",
+    "eJy1jksOAiEMhq/CAYzRLVeZTBqClTQiEFpMdDJ3t/haqouZXR/f/ximeWOmUvECzgvlZM30HCC5M1rzWiKxYFK2MVZlKOkq+uYTHLEKRbphBW4hIHfF/J/vAQW9QHQpNBdwwYAmonyX+5oLyLV0d45ZWNHPzZphv92NqwRzpvgrWD9vatUq6Din7z0eyDK1xjuqseLo": "action_provide_fertilizer_advice",
+    "eJy9kEEKwjAQRa+SA4jotlcpJYR0DIMxCZlJQUvv7kSruLIuWnf5mTf/f6Ydp50aU4ZBG8sYQ6PG50MHc4FGzcIjMQRhC0EWBoNIljGd9Qkyo8cbZE3FOaC6Mf3m2wODZe1NcMU4WDGgMAtf122OSfM1VXfykUnQ91+j2uP+0G0STBH9UrBMXtSmVcBQDN97PJB/1JpFynHAHj49TD+gXTjXijW7O/eHIJE=": "action_listen",
+    "eJytjUEKAjEMRa/SA4jotlcZhlBqrMHaliQVtMzdJ4PiWsFdfvJe/jSWnRuN8Q4hKtXi3XgNUMINvXuHTKJYjO2CbAwVi2pnucIZWSnTExmkp4SyGct3f0+oGBVyKKmHhH8s6KrGb3rk2kAfDeFCJkmuKkZ/1t5Nx/1h/ql7XgFDVXkX": "utter_ask_soil_type_hi",
+    "eJy1jlEKAjEMRK/SA4job6+yLKHUWIO1LU0qaNm7m2VXvxfRv0zmTSZDn3aml4p3cF4oJ2v6MkByN7RmFZFYMCnbGKsylFSK2nyFM1ahSE+swC0E5Dkxbbt7QkEvEF0KzQX8YUETUX6O+5oLyKMgXEhDHLOw0p+1NcNxfxj/0s2Z4oZudd7gN9+MLzH1rjQ=": "utter_ask_season_hi",
+    "eJy1jksOwjAMRK+SAyAE21ylqqwomGARkih2kKDq3evy29JFu7M9bzzTDePODKXiHZwXysma4T1Acje05rNEYsGkbGOsylDSVVTmK5yxCkV6YgVuISDPjnHZ3xMKeoHoUmgu4IoBTUT52e5rLiCPgnAhNXHMwkr/ztZ0x/2h3ySbM8UF2ap8wU3boGM9/6vyotZp1k/2NuZ4": "action_provide_fertilizer_advice",
+    "eJy9jkEOwjAMBL+SByAE136lqqIoMcEiJFHsVIKqf8eFgrjRA+3Na896tx3GnRpygV4by5hio4bXoKO5QqNmEZAYorCVoAiDUSTLmS76BIUx4B2Kpuo90OQYl/11wGBZBxN9NR7+GFCZhZ/stqSs+ZZBn1FMFBKT0J91o9rj/tCtkk0Jw4JsubzBVduAIVn/qvKktmg2i1xSjw6+fxjXo4XNanYPlikkIQ==": "action_listen"
+  }
+}

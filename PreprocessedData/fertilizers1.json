@@ -1,0 +1,425 @@
+[
+    {
+        "crop_type": "Wheat",
+        "soil_type": "Silty",
+        "season": "Rabi",
+        "suggested_fertilizer": {
+            "en": "DAP",
+            "hi": "DAP",
+            "gu": "DAP"
+        }
+    },
+    {
+        "crop_type": "Rice",
+        "soil_type": "Clayey",
+        "season": "Kharif",
+        "suggested_fertilizer": {
+            "en": "Urea",
+            "hi": "Urea",
+            "gu": "Urea"
+        }
+    },
+    {
+        "crop_type": "Maize",
+        "soil_type": "Loamy",
+        "season": "Rabi",
+        "suggested_fertilizer": {
+            "en": "NPK 20-20-20",
+            "hi": "NPK 20-20-20",
+            "gu": "NPK 20-20-20"
+        }
+    },
+    {
+        "crop_type": "Cotton",
+        "soil_type": "Chalky",
+        "season": "Kharif",
+        "suggested_fertilizer": {
+            "en": "NPK 20-20-20",
+            "hi": "NPK 20-20-20",
+            "gu": "NPK 20-20-20"
+        }
+    },
+    {
+        "crop_type": "Soybean",
+        "soil_type": "Loamy",
+        "season": "Zaid",
+        "suggested_fertilizer": {
+            "en": "NPK 20-20-20",
+            "hi": "NPK 20-20-20",
+            "gu": "NPK 20-20-20"
+        }
+    },
+    
+    {
+        "crop_type": "Mango",
+        "soil_type": "Peaty",
+        "season": "Zaid",
+        "suggested_fertilizer": {
+            "en": "MOP",
+            "hi": "MOP",
+            "gu": "MOP"
+        }
+    },
+	
+    {
+        "crop_type": "Wheat",
+        "soil_type": "Silty",
+        "season": "Rabi",
+        "suggested_fertilizer": {
+            "en": "DAP",
+            "hi": "DAP",
+            "gu": "DAP"
+        }
+    },
+    {
+        "crop_type": "Rice",
+        "soil_type": "Clayey",
+        "season": "Kharif",
+        "suggested_fertilizer": {
+            "en": "Urea",
+            "hi": "Urea",
+            "gu": "Urea"
+        }
+    },
+    {
+        "crop_type": "Maize",
+        "soil_type": "Loamy",
+        "season": "Rabi",
+        "suggested_fertilizer": {
+            "en": "NPK 20-20-20",
+            "hi": "NPK 20-20-20",
+            "gu": "NPK 20-20-20"
+        }
+    },
+    {
+        "crop_type": "Cotton",
+        "soil_type": "Chalky",
+        "season": "Kharif",
+        "suggested_fertilizer": {
+            "en": "NPK 20-20-20",
+            "hi": "NPK 20-20-20",
+            "gu": "NPK 20-20-20"
+        }
+    },
+    {
+        "crop_type": "Soybean",
+        "soil_type": "Loamy",
+        "season": "Zaid",
+        "suggested_fertilizer": {
+            "en": "NPK 20-20-20",
+            "hi": "NPK 20-20-20",
+            "gu": "NPK 20-20-20"
+        }
+    },
+    
+    {
+        "crop_type": "Mango",
+        "soil_type": "Peaty",
+        "season": "Zaid",
+        "suggested_fertilizer": {
+            "en": "MOP",
+            "hi": "MOP",
+            "gu": "MOP"
+        }
+    },
+    {
+        "crop_type": "Pineapple",
+        "soil_type": "Sandy",
+        "season": "Zaid",
+        "suggested_fertilizer": {
+            "en": "NPK 20-20-20",
+            "hi": "NPK 20-20-20",
+            "gu": "NPK 20-20-20"
+        }
+    },
+    {
+        "crop_type": "Papaya",
+        "soil_type": "Loamy",
+        "season": "Rabi",
+        "suggested_fertilizer": {
+            "en": "Urea",
+            "hi": "Urea",
+            "gu": "Urea"
+        }
+    },
+    {
+        "crop_type": "Guava",
+        "soil_type": "Clayey",
+        "season": "Kharif",
+        "suggested_fertilizer": {
+            "en": "DAP",
+            "hi": "DAP",
+            "gu": "DAP"
+        }
+    },
+    {
+        "crop_type": "Apple",
+        "soil_type": "Loamy",
+        "season": "Zaid",
+        "suggested_fertilizer": {
+            "en": "Superphosphate",
+            "hi": "Superphosphate",
+            "gu": "Superphosphate"
+        }
+    },
+    {
+        "crop_type": "Pear",
+        "soil_type": "Clayey",
+        "season": "Rabi",
+        "suggested_fertilizer": {
+            "en": "NPK 20-20-20",
+            "hi": "NPK 20-20-20",
+            "gu": "NPK 20-20-20"
+        }
+    },
+    {
+        "crop_type": "Grapes",
+        "soil_type": "Silty",
+        "season": "Kharif",
+        "suggested_fertilizer": {
+            "en": "Urea",
+            "hi": "Urea",
+            "gu": "Urea"
+        }
+    },
+    {
+        "crop_type": "Pomegranate",
+        "soil_type": "Sandy",
+        "season": "Rabi",
+        "suggested_fertilizer": {
+            "en": "Superphosphate",
+            "hi": "Superphosphate",
+            "gu": "Superphosphate"
+        }
+    },
+    {
+        "crop_type": "Strawberry",
+        "soil_type": "Loamy",
+        "season": "Zaid",
+        "suggested_fertilizer": {
+            "en": "NPK 20-20-20",
+            "hi": "NPK 20-20-20",
+            "gu": "NPK 20-20-20"
+        }
+    },
+    {
+        "crop_type": "Blueberry",
+        "soil_type": "Peaty",
+        "season": "Kharif",
+        "suggested_fertilizer": {
+            "en": "MOP",
+            "hi": "MOP",
+            "gu": "MOP"
+        }
+    },
+    {
+        "crop_type": "Raspberry",
+        "soil_type": "Clayey",
+        "season": "Zaid",
+        "suggested_fertilizer": {
+            "en": "DAP",
+            "hi": "DAP",
+            "gu": "DAP"
+        }
+    },
+    {
+        "crop_type": "Cherry",
+        "soil_type": "Silty",
+        "season": "Rabi",
+        "suggested_fertilizer": {
+            "en": "Superphosphate",
+            "hi": "Superphosphate",
+            "gu": "Superphosphate"
+        }
+    },
+    {
+        "crop_type": "Peach",
+        "soil_type": "Loamy",
+        "season": "Kharif",
+        "suggested_fertilizer": {
+            "en": "NPK 20-20-20",
+            "hi": "NPK 20-20-20",
+            "gu": "NPK 20-20-20"
+        }
+    },
+    {
+        "crop_type": "Plum",
+        "soil_type": "Chalky",
+        "season": "Rabi",
+        "suggested_fertilizer": {
+            "en": "MOP",
+            "hi": "MOP",
+            "gu": "MOP"
+        }
+    },
+    {
+        "crop_type": "Apricot",
+        "soil_type": "Sandy",
+        "season": "Zaid",
+        "suggested_fertilizer": {
+            "en": "DAP",
+            "hi": "DAP",
+            "gu": "DAP"
+        }
+    },
+    {
+        "crop_type": "Orange",
+        "soil_type": "Clayey",
+        "season": "Kharif",
+        "suggested_fertilizer": {
+            "en": "Superphosphate",
+            "hi": "Superphosphate",
+            "gu": "Superphosphate"
+        }
+    },
+    {
+        "crop_type": "Lemon",
+        "soil_type": "Loamy",
+        "season": "Rabi",
+        "suggested_fertilizer": {
+            "en": "Urea",
+            "hi": "Urea",
+            "gu": "Urea"
+        }
+    },
+    {
+        "crop_type": "Mandarin",
+        "soil_type": "Peaty",
+        "season": "Zaid",
+        "suggested_fertilizer": {
+            "en": "MOP",
+            "hi": "MOP",
+            "gu": "MOP"
+        }
+    },
+    {
+        "crop_type": "Tangerine",
+        "soil_type": "Chalky",
+        "season": "Kharif",
+        "suggested_fertilizer": {
+            "en": "NPK 20-20-20",
+            "hi": "NPK 20-20-20",
+            "gu": "NPK 20-20-20"
+        }
+    },
+    {
+        "crop_type": "Fig",
+        "soil_type": "Silty",
+        "season": "Rabi",
+        "suggested_fertilizer": {
+            "en": "Superphosphate",
+            "hi": "Superphosphate",
+            "gu": "Superphosphate"
+        }
+    },
+    {
+        "crop_type": "Kiwi",
+        "soil_type": "Loamy",
+        "season": "Zaid",
+        "suggested_fertilizer": {
+            "en": "MOP",
+            "hi": "MOP",
+            "gu": "MOP"
+        }
+    },
+    {
+        "crop_type": "Lychee",
+        "soil_type": "Peaty",
+        "season": "Kharif",
+        "suggested_fertilizer": {
+            "en": "DAP",
+            "hi": "DAP",
+            "gu": "DAP"
+        }
+    },
+    {
+        "crop_type": "Avocado",
+        "soil_type": "Sandy",
+        "season": "Rabi",
+        "suggested_fertilizer": {
+            "en": "NPK 20-20-20",
+            "hi": "NPK 20-20-20",
+            "gu": "NPK 20-20-20"
+        }
+    },
+    {
+        "crop_type": "Mulberry",
+        "soil_type": "Silty",
+        "season": "Kharif",
+        "suggested_fertilizer": {
+            "en": "Urea",
+            "hi": "Urea",
+            "gu": "Urea"
+        }
+    },
+    {
+        "crop_type": "Gooseberry",
+        "soil_type": "Clayey",
+        "season": "Rabi",
+        "suggested_fertilizer": {
+            "en": "Superphosphate",
+            "hi": "Superphosphate",
+            "gu": "Superphosphate"
+        }
+    },
+    {
+        "crop_type": "Passion Fruit",
+        "soil_type": "Loamy",
+        "season": "Zaid",
+        "suggested_fertilizer": {
+            "en": "MOP",
+            "hi": "MOP",
+            "gu": "MOP"
+        }
+    },
+    {
+        "crop_type": "Dragon Fruit",
+        "soil_type": "Sandy",
+        "season": "Kharif",
+        "suggested_fertilizer": {
+            "en": "NPK 20-20-20",
+            "hi": "NPK 20-20-20",
+            "gu": "NPK 20-20-20"
+        }
+    },
+    {
+        "crop_type": "Date Palm",
+        "soil_type": "Peaty",
+        "season": "Rabi",
+        "suggested_fertilizer": {
+            "en": "DAP",
+            "hi": "DAP",
+            "gu": "DAP"
+        }
+    },
+    {
+        "crop_type": "Blackberry",
+        "soil_type": "Chalky",
+        "season": "Zaid",
+        "suggested_fertilizer": {
+            "en": "Superphosphate",
+            "hi": "Superphosphate",
+            "gu": "Superphosphate"
+        }
+    },
+    {
+        "crop_type": "Starfruit",
+        "soil_type": "Silty",
+        "season": "Kharif",
+        "suggested_fertilizer": {
+            "en": "Urea",
+            "hi": "Urea",
+            "gu": "Urea"
+        }
+    },
+    {
+        "crop_type": "Coconut",
+        "soil_type": "Sandy",
+        "season": "Rabi",
+        "suggested_fertilizer": {
+            "en": "MOP",
+            "hi": "MOP",
+            "gu": "MOP"
+        }
+    }
+]

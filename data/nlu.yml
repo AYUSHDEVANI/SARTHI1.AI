@@ -1,0 +1,194 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - Hello
+      - Hey there
+      - હેલો
+      - નમસ્તે
+      - नमस्ते
+      - હાય
+      - हाय
+
+  - intent: ask_fertilizer
+    examples: |
+      - What fertilizer should I use for [Wheat](crop_type) in [Rabi](season) season on [Silty](soil_type) soil?
+      - What fertilizer should I use for [Rice](crop_type) in [Kharif](season) season on [Clayey](soil_type) soil?
+      - What fertilizer should I use for [Maize](crop_type) in [Rabi](season) season on [Loamy](soil_type) soil?
+      - What fertilizer should I use for [Cotton](crop_type) in [Kharif](season) season on [Chalky](soil_type) soil?
+      - What fertilizer should I use for [Soybean](crop_type) in [Zaid](season) season on [Loamy](soil_type) soil?
+      - What fertilizer should I use for [Mango](crop_type) in [Zaid](season) season on [Peaty](soil_type) soil?
+      - What fertilizer should I use for [Pineapple](crop_type) in [Zaid](season) season on [Sandy](soil_type) soil?
+      - What fertilizer should I use for [Papaya](crop_type) in [Rabi](season) season on [Loamy](soil_type) soil?
+      - What fertilizer should I use for [Guava](crop_type) in [Kharif](season) season on [Clayey](soil_type) soil?
+      - What fertilizer should I use for [Apple](crop_type) in [Zaid](season) season on [Loamy](soil_type) soil?
+      - What fertilizer should I use for [Pear](crop_type) in [Rabi](season) season on [Clayey](soil_type) soil?
+      - What fertilizer should I use for [Grapes](crop_type) in [Kharif](season) season on [Silty](soil_type) soil?
+      - What fertilizer should I use for [Pomegranate](crop_type) in [Rabi](season) season on [Sandy](soil_type) soil?
+      - What fertilizer should I use for [Strawberry](crop_type) in [Zaid](season) season on [Loamy](soil_type) soil?
+      - What fertilizer should I use for [Blueberry](crop_type) in [Kharif](season) season on [Peaty](soil_type) soil?
+      - What fertilizer should I use for [Raspberry](crop_type) in [Zaid](season) season on [Clayey](soil_type) soil?
+      - What fertilizer should I use for [Cherry](crop_type) in [Rabi](season) season on [Silty](soil_type) soil?
+      - What fertilizer should I use for [Peach](crop_type) in [Kharif](season) season on [Loamy](soil_type) soil?
+      - What fertilizer should I use for [Plum](crop_type) in [Rabi](season) season on [Chalky](soil_type) soil?
+      - What fertilizer should I use for [Apricot](crop_type) in [Zaid](season) season on [Sandy](soil_type) soil?
+      - What fertilizer should I use for [Orange](crop_type) in [Kharif](season) season on [Clayey](soil_type) soil?
+      - What fertilizer should I use for [Lemon](crop_type) in [Rabi](season) season on [Loamy](soil_type) soil?
+      - What fertilizer should I use for [Mandarin](crop_type) in [Zaid](season) season on [Peaty](soil_type) soil?
+      - What fertilizer should I use for [Tangerine](crop_type) in [Kharif](season) season on [Chalky](soil_type) soil?
+      - What fertilizer should I use for [Fig](crop_type) in [Rabi](season) season on [Silty](soil_type) soil?
+      - What fertilizer should I use for [Kiwi](crop_type) in [Zaid](season) season on [Loamy](soil_type) soil?
+      - What fertilizer should I use for [Lychee](crop_type) in [Kharif](season) season on [Peaty](soil_type) soil?
+      - What fertilizer should I use for [Avocado](crop_type) in [Rabi](season) season on [Sandy](soil_type) soil?
+      - What fertilizer should I use for [Guava](crop_type) in [Kharif](season) season on [Loamy](soil_type) soil?
+
+      - [गेंहू](crop_type) के लिए [सिल्ट युक्त](soil_type) मिट्टी में [रबी](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [चावल](crop_type) के लिए [कीचड़ युक्त](soil_type) मिट्टी में [खरीफ](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [मक्का](crop_type) के लिए [रेतीली](soil_type) मिट्टी में [रबी](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [कपास](crop_type) के लिए [चाल्की](soil_type) मिट्टी में [खरीफ](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [सोयाबीन](crop_type) के लिए [रेतीली](soil_type) मिट्टी में [जायद](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [आम](crop_type) के लिए [पीट युक्त](soil_type) मिट्टी में [जायद](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [अनानास](crop_type) के लिए [रेतीला](soil_type) मिट्टी में [जायद](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [पपीता](crop_type) के लिए [रेतीली](soil_type) मिट्टी में [रबी](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [अमरूद](crop_type) के लिए [कीचड़ युक्त](soil_type) मिट्टी में [खरीफ](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [सेब](crop_type) के लिए [रेतीली](soil_type) मिट्टी में [जायद](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [नाशपाती](crop_type) के लिए [कीचड़ युक्त](soil_type) मिट्टी में [रबी](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [अंगूर](crop_type) के लिए [सिल्ट युक्त](soil_type) मिट्टी में [खरीफ](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [अनार](crop_type) के लिए [रेतीला](soil_type) मिट्टी में [रबी](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [स्ट्रॉबेरी](crop_type) के लिए [रेतीली](soil_type) मिट्टी में [जायद](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [ब्लूबेरी](crop_type) के लिए [पीट युक्त](soil_type) मिट्टी में [खरीफ](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [रास्पबेरी](crop_type) के लिए [कीचड़ युक्त](soil_type) मिट्टी में [जायद](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [चेरी](crop_type) के लिए [सिल्ट युक्त](soil_type) मिट्टी में [रबी](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [आड़ू](crop_type) के लिए [रेतीली](soil_type) मिट्टी में [खरीफ](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [अल्बा](crop_type) के लिए [चाल्की](soil_type) मिट्टी में [रबी](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [खुबानी](crop_type) के लिए [रेतीला](soil_type) मिट्टी में [जायद](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [संतरा](crop_type) के लिए [कीचड़ युक्त](soil_type) मिट्टी में [खरीफ](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [नींबू](crop_type) के लिए [रेतीली](soil_type) मिट्टी में [रबी](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [संतरा](crop_type) के लिए [पीट युक्त](soil_type) मिट्टी में [जायद](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [संतरा](crop_type) के लिए [चाल्की](soil_type) मिट्टी में [खरीफ](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [अंजीर](crop_type) के लिए [सिल्ट युक्त](soil_type) मिट्टी में [रबी](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [कीवी](crop_type) के लिए [रेतीली](soil_type) मिट्टी में [जायद](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [लीची](crop_type) के लिए [पीट युक्त](soil_type) मिट्टी में [खरीफ](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [एवोकाडो](crop_type) के लिए [रेतीली](soil_type) मिट्टी में [रबी](season) मौसम में कौन सा उर्वरक उपयोग करें?
+      - [अमरूद](crop_type) के लिए [रेतीली](soil_type) मिट्टी में [खरीफ](season) मौसम में कौन सा उर्वरक उपयोग करें?
+
+      - [ગહૂ](crop_type) માટે [સિલ્ટી](soil_type) માટીમાં [રબિ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [ચોખા](crop_type) માટે [કીચડવાળી](soil_type) માટીમાં [ખરીફ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [મકાઈ](crop_type) માટે [મીઠું](soil_type) માટીમાં [રબિ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [કપાસ](crop_type) માટે [ચાકલી](soil_type) માટીમાં [ખરીફ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [સોયાબીન](crop_type) માટે [મીઠું](soil_type) માટીમાં [ઝાયદ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [આમ](crop_type) માટે [પીટ](soil_type) માટીમાં [ઝાયદ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [અનાનાસ](crop_type) માટે [રેતીલી](soil_type) માટીમાં [ઝાયદ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [પપૈયા](crop_type) માટે [મીઠું](soil_type) માટીમાં [રબિ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [અમરુદ](crop_type) માટે [કીચડવાળી](soil_type) માટીમાં [ખરીફ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [સફરજન](crop_type) માટે [મીઠું](soil_type) માટીમાં [ઝાયદ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [નાશપાતી](crop_type) માટે [કીચડવાળી](soil_type) માટીમાં [રબિ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [અંગૂર](crop_type) માટે [સિલ્ટી](soil_type) માટીમાં [ખરીફ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [અનાર](crop_type) માટે [રેતીલી](soil_type) માટીમાં [રબિ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [સ્ટ્રોબેરી](crop_type) માટે [મીઠું](soil_type) માટીમાં [ઝાયદ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [બ્લૂબેરી](crop_type) માટે [પીટ](soil_type) માટીમાં [ખરીફ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [રાસ્પબેરી](crop_type) માટે [કીચડવાળી](soil_type) માટીમાં [ઝાયદ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [ચેરી](crop_type) માટે [સિલ્ટી](soil_type) માટીમાં [રબિ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [આડો](crop_type) માટે [મીઠું](soil_type) માટીમાં [ખરીફ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [પ્રુને](crop_type) માટે [ચાકલી](soil_type) માટીમાં [રબિ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [અપરીકટ](crop_type) માટે [રેતીલી](soil_type) માટીમાં [ઝાયદ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [સંતરા](crop_type) માટે [કીચડવાળી](soil_type) માટીમાં [ખરીફ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [લીમડો](crop_type) માટે [મીઠું](soil_type) માટીમાં [રબિ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [મંદારિન](crop_type) માટે [પીટ](soil_type) માટીમાં [ઝાયદ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [તંગેરિન](crop_type) માટે [ચાકલી](soil_type) માટીમાં [ખરીફ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [ઇંગીન](crop_type) માટે [સિલ્ટી](soil_type) માટીમાં [રબિ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [કિવી](crop_type) માટે [મીઠું](soil_type) માટીમાં [ઝાયદ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [લીચી](crop_type) માટે [પીટ](soil_type) માટીમાં [ખરીફ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [એવોકાડો](crop_type) માટે [મીઠું](soil_type) માટીમાં [રબિ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+      - [અમરુદ](crop_type) માટે [મીઠું](soil_type) માટીમાં [ખરીફ](season) સીઝનમાં કયું ખાતર ઉપયોગ કરવું?
+
+      # - What crops are best to grow in {crop_type}?
+      # - {crop_type} {soil_type} {season}.
+      # - What fertilizer should I use for {crop_type}[wheat] on {soil_type}[silty] soil during {season}[rabi]?
+      # - Can you suggest a fertilizer for my {crop_type} in {season} season with {soil_type} soil?
+      # - For {crop_type} grown in {soil_type} soil in {season}, which fertilizer is recommended?
+      # - I need advice on fertilizer for {crop_type} in {season} on {soil_type} soil.
+      # - Which fertilizer should I apply for {crop_type} in {season} with {soil_type} soil?
+      # - What type of fertilizer is best for {crop_type} when planted in {soil_type} soil and during {season}?
+      # - Could you recommend a fertilizer for {crop_type} considering {soil_type} soil and {season} season?
+      # - What fertilizer would be ideal for {crop_type} on {soil_type} soil in {season}?
+      # - What fertilizer should I use for {wheat}(crop_type) on {silty}(soil_type) soil during {rabi}(season)?
+
+      # - {crop_type} માટે {soil_type} માટીમાં {season} સીઝનમાં કયો ખાતર ઉપયોગ કરવો જોઈએ?
+      # - {season} માં {soil_type} મাটি પર {crop_type} માટે શ્રેષ્ઠ ખાતર કયું છે?
+      # - {crop_type} માટે {soil_type} મટીમાં {season} માં કયા પ્રકારના ખાતરનો ઉપયોગ કરવો જોઈએ?
+      # - {season} ની સીઝનમાં {crop_type} માટે {soil_type} માટી પર કયા પ્રકારના ખાતરનો ઉપયોગ કરવો?
+      # - {crop_type} માટે {season} માં {soil_type} મટીને ખાતર માટે સલાહ આપો.
+
+      # - {crop_type} के लिए {soil_type} मिट्टी में {season} मौसम में कौन सा उर्वरक इस्तेमाल करना चाहिए?
+      # - {season} में {soil_type} मिट्टी पर {crop_type} के लिए कौन सा उर्वरक सबसे अच्छा है?
+      # - {crop_type} के लिए {soil_type} मिट्टी में {season} में उपयुक्त उर्वरक कौन सा है?
+      # - {crop_type} के लिए {season} में {soil_type} मिट्टी पर उर्वरक की सिफारिश करें।
+      # - {crop_type} के लिए {season} में {soil_type} मिट्टी के आधार पर कौन सा उर्वरक सही रहेगा?
+
+  - intent: request_fertilizer
+    examples: |
+      - I need fertilizer advice
+      - मुझे उर्वरक सलाह चाहिए
+      - મારે ખાતર ની સલાહ જોઈએ
+      - Suggest fertilizers for wheat
+      - गेहूं के लिए उर्वरक सुझाएँ
+      - હું ઘઉં માટે ખાતરની ભલામણો જોઈશ
+      - What fertilizer is best for rice?
+      
+  - intent: provide_crop_name
+    examples: |
+      - I am growing [Wheat](crop_name)
+      - I need advice for [Rice](crop_name)
+      - मेरी फसल [गेंहू](crop_name) है
+      - मैं [चावल](crop_name) उगाता हूँ
+
+
+  - intent: ask_crop_advice
+    examples: |
+      - What crops are best to grow in {season}?
+      - હવામાન પ્રમાણે કયો પાક ઉગાડી શકાય?
+      - मौसम के अनुसार कौन सा फसल सबसे अच्छा है?
+
+  - intent: ask_quality_check
+    examples: |
+      - How can I check the quality of my {crop_type}?
+      - મારી {crop_type} ની ગુણવત્તા કેવી રીતે તપાસવી?
+      - मेरी {crop_type} की गुणवत्ता की जांच कैसे करूं?
+
+  - intent: ask_bidding
+    examples: |
+      - What's the starting bid for {crop_type}?
+      - મારી {crop_type} માટે શરૂઆતની હરાજી શું છે?
+      - मेरी {crop_type} के लिए शुरुआती बोली क्या है?
+
+  # - intent: provide_crop_type
+  #   examples: |
+  #     - wheat
+  #     - ઘઉં
+  #     - गेहूं
+
+  # - intent: provide_soil_type
+  #   examples: |
+  #     - clay
+  #     - ચીકણી
+  #     - चिकनी
+  #     - sandy
+  #     - રેતી
+  #     - रेती
+
+  # - intent: provide_season
+  #   examples: |
+  #     - Summer
+  #     - ઉનાળો
+  #     - गर्मी
+
+  - intent: language_change
+    examples: |
+      - Change language to Gujarati
+      - ભાષા બદલો
+      - भाषा बदलें
+
+
+    
